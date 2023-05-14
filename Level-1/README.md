@@ -20,11 +20,13 @@ For each level, you will find the same file structure:
 
 ### 🚦 Time to start!
 
-- Review the code in `code.ts` without looking at the other files. Can you spot the bug?
-- Try to fix the bug. Ensure that unit tests are still passing.
+- Review the code in `code.ts` without looking at the other files. Can you spot the security bugs?
+- Try to fix the bugs. Ensure that unit tests are still passing.
 - You successfully completed the level when the tests in both `code.test.ts` and `hack.test.ts` are passing 🟢.
 - If you get stuck, read the hint in the `hint.ts` file.
 - You can review the `hack.test.ts` file to better understand how the exploit is working.
 - Finally, once you have completed the challenge or if you are truely stuck, review the `solution.ts` for a fixed version and notes about the vulnerability.
+
+Note that this challenge has two different security issues you need to address to make the tests pass.
 
 Make sure that once you're done you read more about the vulnerability you have fixed in `solution.ts`.
